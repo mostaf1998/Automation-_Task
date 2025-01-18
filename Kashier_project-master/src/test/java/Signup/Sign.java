@@ -63,7 +63,7 @@ public class Sign {
 
     @AfterTest
 
-    public void koko() throws InterruptedException {
+    public void koko1() throws InterruptedException {
         driver.close();
     }
 
