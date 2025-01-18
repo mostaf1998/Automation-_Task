@@ -11,6 +11,7 @@ public class Page_signup {
         return driver.findElement(By.name("full_name"));
 
     }
+
     public WebElement store(WebDriver driver) {
         return driver.findElement(By.name("store_name"));
 
@@ -26,10 +27,11 @@ public class Page_signup {
 
     }
 
-     public WebElement email(WebDriver driver) {
+    public WebElement email(WebDriver driver) {
         return driver.findElement(By.name("email"));
 
     }
+
     public WebElement password1(WebDriver driver) {
         return driver.findElement(By.cssSelector("[placeholder=\"Create password\"]"));
 
@@ -49,3 +51,4 @@ public class Page_signup {
         return driver.findElement(By.xpath("//button[@type=\"button\"]"));
 
     }
+}
