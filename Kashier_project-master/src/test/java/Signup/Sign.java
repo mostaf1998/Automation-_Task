@@ -61,6 +61,12 @@ public class Sign {
 
 
 
+    @AfterTest
+
+    public void koko() throws InterruptedException {
+        driver.close();
+    }
+
 
 
     @AfterTest
