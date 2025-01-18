@@ -67,7 +67,6 @@ public class Sign {
 
 
     @AfterTest
-
     public void close_browser() throws InterruptedException {
         driver.close();
     }
