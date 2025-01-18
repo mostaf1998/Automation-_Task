@@ -91,6 +91,8 @@ public class Sign {
 
     public void close_browser111111() throws InterruptedException {
         driver.close();
+        driver.close();
+
     }
 }
 
