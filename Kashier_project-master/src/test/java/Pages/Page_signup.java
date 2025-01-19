@@ -50,5 +50,12 @@ public class Page_signup {
     public WebElement signup1(WebDriver driver) {
         return driver.findElement(By.xpath("//button[@type=\"button\"]"));
 
+
     }
+
+    public WebElement signup2(WebDriver driver) {
+        return driver.findElement(By.xpath("//button[@type=\"button\"]"));
+
+    }
+
 }
