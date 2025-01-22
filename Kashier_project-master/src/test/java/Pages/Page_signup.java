@@ -53,7 +53,7 @@ public class Page_signup {
 
     }
 
-    public WebElement signup2(WebDriver driver) {
+    public WebElement koko2(WebDriver driver) {
         return driver.findElement(By.xpath("//button[@type=\"button\"]"));
 
     }
