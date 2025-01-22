@@ -19,6 +19,9 @@ public class Mostafa {
         page.password1(driver).sendKeys("Mostafa1998199888@");
         page.password2(driver).sendKeys("Mostafa1998199888@");
         page.signup(driver).click();
+        page.signup(driver).click();
+        page.signup(driver).click();
+
 
 
         //Assertion1
